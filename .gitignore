@@ -45,3 +45,4 @@ vendor/
 
 # Ferramentas de terceiros
 .envrc
+.vscode/launch.json
