@@ -10,7 +10,7 @@ const userEndpoint = "/users"
 
 var userRouters = []Routers{
 	{
-		URI:              userEndpoint + "/create",
+		URI:              userEndpoint,
 		Method:           http.MethodPost,
 		Function:         controllers.CreateUser,
 		VerificationAuth: false,
