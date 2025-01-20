@@ -95,3 +95,35 @@ func (repository Users) FindById(id uint64) (models.User, error) {
 	}
 	return user, nil
 }
+
+func (repository Users) UpdateUser(id uint64, user models.User) error {
+	statement, err := repository.DB.Prepare("UPDATE users SET name = ?, nick = ?, email = ? WHERE id = ?")
+
+	if err != nil {
+		return err
+	}
+
+	defer statement.Close()
+
+	if _, err = statement.Exec(user.Name, user.Nick, user.Email, id); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (repository Users) DeleteUser(id uint64) error {
+	statement, err := repository.DB.Prepare("DELETE FROM users WHERE id = ?")
+
+	if err != nil {
+		return err
+	}
+
+	defer statement.Close()
+
+	if _, err = statement.Exec(id); err != nil {
+		return err
+	}
+
+	return nil
+}
