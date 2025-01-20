@@ -28,13 +28,13 @@ var userRouters = []Routers{
 		VerificationAuth: false,
 	},
 	{
-		URI:              userEndpoint,
+		URI:              userEndpoint + "/{id}",
 		Method:           http.MethodPut,
 		Function:         controllers.UpdateUser,
 		VerificationAuth: false,
 	},
 	{
-		URI:              userEndpoint,
+		URI:              userEndpoint + "/{id}",
 		Method:           http.MethodDelete,
 		Function:         controllers.DeleteUser,
 		VerificationAuth: false,

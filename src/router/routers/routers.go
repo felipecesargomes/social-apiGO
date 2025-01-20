@@ -21,5 +21,4 @@ func ConfigRouters(r *mux.Router) *mux.Router {
 	}
 
 	return r
-
 }
