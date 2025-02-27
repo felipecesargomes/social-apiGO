@@ -13,7 +13,7 @@ type User struct {
 	Name      string `json:"name,omitempty"`
 	Nick      string `json:"nick,omitempty"`
 	Email     string `json:"email,omitempty"`
-	Password  string `json:"password,omitempty" sql:"type:varchar(255)"` // Ajustar o tamanho do campo Password
+	Password  string `json:"password,omitempty" sql:"type:varchar(255)"` 
 	CreatedAt string `json:"created_at,omitempty"`
 }
 
