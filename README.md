@@ -49,8 +49,8 @@ A API estará disponível em http://localhost:5000
 ### Endpoints
 
 Usuários:
-POST /users: Cria um novo usuário.
-GET /users: Lista todos os usuários.
-GET /users/{id}: Obtém um usuário pelo ID.
-PUT /users/{id}: Atualiza um usuário pelo ID.
-DELETE /users/{id}: Deleta um usuário pelo ID.
+* POST /users: Cria um novo usuário.
+* GET /users: Lista todos os usuários.
+* GET /users/{id}: Obtém um usuário pelo ID.
+* PUT /users/{id}: Atualiza um usuário pelo ID.
+* DELETE /users/{id}: Deleta um usuário pelo ID.
