@@ -3,7 +3,13 @@
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f27bab54-cecd-4c80-a268-1fda60127b79" alt="Go Logo" />
+</p>
+
+
 ## Descrição
+
 
 Projeto API Social desenvolvido na linguagem Go, utilizando o framework Gorilla Mux para roteamento e MySQL como banco de dados.
 
