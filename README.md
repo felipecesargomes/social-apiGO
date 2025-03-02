@@ -10,8 +10,7 @@
 
 ## Descrição
 
-
-Projeto API Social desenvolvido na linguagem Go, MySQL como banco de dados.
+Projeto API Cadastro de usuários desenvolvido na linguagem Go, MySQL como banco de dados.
 
 ## Estrutura do Projeto
 
