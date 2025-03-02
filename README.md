@@ -11,7 +11,7 @@
 ## Descrição
 
 
-Projeto API Social desenvolvido na linguagem Go, utilizando o framework Gorilla Mux para roteamento e MySQL como banco de dados.
+Projeto API Social desenvolvido na linguagem Go, MySQL como banco de dados.
 
 ## Estrutura do Projeto
 
