@@ -12,10 +12,6 @@
 
 Projeto API Cadastro de usuários desenvolvido na linguagem Go, MySQL como banco de dados.
 
-## Estrutura do Projeto
-
-TODO: Criar árvore do projeto.
-
 ## Configuração (como executar com docker-composer)
 
 ### Variáveis de Ambiente
